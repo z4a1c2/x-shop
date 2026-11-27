@@ -1,0 +1,153 @@
+@use '@/styles/variables.scss' as *;
+
+.page {
+  min-height: 100vh;
+  background: $color-bg-page;
+  padding-bottom: 160rpx;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: $spacing-md;
+  padding: $spacing-md $spacing-lg;
+  padding-top: calc(50rpx + env(safe-area-inset-top));
+  background: $gradient-banner;
+}
+
+.searchBar {
+  flex: 1;
+  height: 72rpx;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: $radius-button;
+  display: flex;
+  align-items: center;
+  padding: 0 $spacing-lg;
+  gap: $spacing-sm;
+  transition: all $transition-fast;
+
+  &:active {
+    transform: scale(0.98);
+  }
+}
+
+.searchIcon {
+  font-size: $font-size-lg;
+  color: $color-text-tertiary;
+}
+
+.searchText {
+  font-size: $font-size-md;
+  color: $color-text-tertiary;
+}
+
+.headerTitle {
+  color: $color-text-white;
+  font-size: $font-size-lg;
+  font-weight: $font-weight-bold;
+}
+
+.bannerSection {
+  padding-top: calc(140rpx + env(safe-area-inset-top));
+  padding: calc(140rpx + env(safe-area-inset-top)) $spacing-lg $spacing-lg;
+  background: $gradient-banner;
+}
+
+.banner {
+  border-radius: $radius-lg;
+  overflow: hidden;
+  height: 320rpx;
+  box-shadow: $shadow-float;
+
+  :global(.swiper-item) {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.bannerImage {
+  width: 100%;
+  height: 100%;
+  border-radius: $radius-lg;
+}
+
+.categorySection {
+  background: $color-bg-card;
+  margin: -$spacing-lg $spacing-lg $spacing-lg;
+  border-radius: $radius-lg;
+  padding: $spacing-lg $spacing-md;
+  box-shadow: $shadow-card;
+  position: relative;
+  z-index: 10;
+}
+
+.categoryGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: $spacing-lg $spacing-sm;
+}
+
+.categoryItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $spacing-sm;
+  transition: all $transition-fast;
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.categoryIcon {
+  width: 96rpx;
+  height: 96rpx;
+  border-radius: $radius-xl;
+  background: $color-bg-grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40rpx;
+}
+
+.categoryName {
+  font-size: $font-size-sm;
+  color: $color-text-secondary;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $spacing-lg $spacing-lg $spacing-md;
+}
+
+.sectionTitle {
+  font-size: $font-size-lg;
+  font-weight: $font-weight-semibold;
+  color: $color-text-primary;
+}
+
+.sectionMore {
+  font-size: $font-size-sm;
+  color: $color-text-tertiary;
+}
+
+.productGrid {
+  padding: 0 $spacing-lg;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: $spacing-md;
+}
+
+.emptyTip {
+  padding: 80rpx $spacing-lg;
+  text-align: center;
+  font-size: $font-size-sm;
+  color: $color-text-tertiary;
+}

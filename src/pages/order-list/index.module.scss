@@ -1,0 +1,207 @@
+@use '@/styles/variables.scss' as *;
+
+.page {
+  min-height: 100vh;
+  background: $color-bg-page;
+}
+
+.tabs {
+  display: flex;
+  background: $color-bg-card;
+  border-bottom: 1rpx solid $color-divider;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.tabItem {
+  flex: 1;
+  height: 88rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $font-size-md;
+  color: $color-text-secondary;
+  position: relative;
+
+  &.active {
+    color: $color-primary;
+    font-weight: $font-weight-medium;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 48rpx;
+      height: 4rpx;
+      background: $color-primary;
+      border-radius: 2rpx;
+    }
+  }
+}
+
+.orderList {
+  padding: $spacing-md;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+}
+
+.orderCard {
+  background: $color-bg-card;
+  border-radius: $radius-lg;
+  overflow: hidden;
+  box-shadow: $shadow-card;
+}
+
+.orderHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $spacing-md $spacing-lg;
+  background: $color-bg-grey;
+  font-size: $font-size-sm;
+}
+
+.orderNo {
+  color: $color-text-tertiary;
+}
+
+.orderStatusWrap {
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+}
+
+.refundTag {
+  font-size: $font-size-xs;
+  color: $color-primary;
+  background: rgba($color-primary, 0.1);
+  padding: 2rpx $spacing-sm;
+  border-radius: $radius-xs;
+}
+
+.orderStatus {
+  color: $color-price;
+  font-weight: $font-weight-medium;
+}
+
+.orderBody {
+  padding: $spacing-lg;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+}
+
+.itemRow {
+  display: flex;
+  gap: $spacing-md;
+}
+
+.itemImage {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: $radius-md;
+}
+
+.itemInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4rpx;
+  min-width: 0;
+}
+
+.itemName {
+  font-size: $font-size-sm;
+  color: $color-text-primary;
+  @include text-ellipsis;
+}
+
+.itemSpec {
+  font-size: $font-size-xs;
+  color: $color-text-tertiary;
+}
+
+.itemBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itemPrice {
+  font-size: $font-size-sm;
+  color: $color-text-primary;
+}
+
+.itemQty {
+  font-size: $font-size-xs;
+  color: $color-text-tertiary;
+}
+
+.orderFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $spacing-md $spacing-lg;
+  border-top: 1rpx solid $color-divider;
+}
+
+.orderTotalLabel {
+  font-size: $font-size-sm;
+  color: $color-text-tertiary;
+}
+
+.orderTotal {
+  font-size: $font-size-lg;
+  font-weight: $font-weight-bold;
+  color: $color-price;
+  font-style: italic;
+}
+
+.orderActions {
+  display: flex;
+  gap: $spacing-sm;
+}
+
+.actionBtn {
+  height: 56rpx;
+  padding: 0 24rpx;
+  border-radius: $radius-sm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $font-size-xs;
+  border: 1rpx solid $color-border;
+  color: $color-text-secondary;
+  background: $color-bg-card;
+
+  &.primary {
+    background: $color-primary;
+    color: $color-text-white;
+    border-color: $color-primary;
+  }
+
+  &.ghost {
+    color: $color-primary;
+    border-color: $color-primary;
+  }
+}
+
+.empty {
+  padding: 200rpx $spacing-lg;
+  text-align: center;
+}
+
+.emptyIcon {
+  font-size: 100rpx;
+  display: block;
+  margin-bottom: $spacing-md;
+}
+
+.emptyText {
+  font-size: $font-size-md;
+  color: $color-text-tertiary;
+}

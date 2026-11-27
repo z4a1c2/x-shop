@@ -1,0 +1,99 @@
+@use '@/styles/variables.scss' as *;
+
+.page {
+  min-height: 100vh;
+  background: $color-bg-page;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80rpx $spacing-lg;
+}
+
+.statusIcon {
+  font-size: 160rpx;
+  margin-bottom: $spacing-lg;
+}
+
+.statusTitle {
+  font-size: 40rpx;
+  font-weight: $font-weight-bold;
+  color: $color-text-primary;
+  margin-bottom: $spacing-sm;
+}
+
+.statusDesc {
+  font-size: $font-size-md;
+  color: $color-text-tertiary;
+  margin-bottom: $spacing-xl;
+}
+
+.orderInfo {
+  width: 100%;
+  background: $color-bg-card;
+  border-radius: $radius-lg;
+  padding: $spacing-lg;
+  margin-bottom: $spacing-xl;
+  box-shadow: $shadow-card;
+}
+
+.infoRow {
+  display: flex;
+  justify-content: space-between;
+  padding: $spacing-sm 0;
+  border-bottom: 1rpx solid $color-divider;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.infoLabel {
+  font-size: $font-size-sm;
+  color: $color-text-tertiary;
+}
+
+.infoValue {
+  font-size: $font-size-sm;
+  color: $color-text-primary;
+}
+
+.amount {
+  font-size: 44rpx;
+  font-weight: $font-weight-bold;
+  color: $color-price;
+  font-style: italic;
+}
+
+.btnGroup {
+  width: 100%;
+  display: flex;
+  gap: $spacing-md;
+  margin-top: auto;
+  padding-bottom: $spacing-xl;
+}
+
+.btn {
+  flex: 1;
+  height: 88rpx;
+  border-radius: $radius-button;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $font-size-md;
+  font-weight: $font-weight-medium;
+
+  &.primary {
+    background: $gradient-primary;
+    color: $color-text-white;
+  }
+
+  &.ghost {
+    background: $color-bg-card;
+    border: 2rpx solid $color-border;
+    color: $color-text-secondary;
+  }
+
+  &:active {
+    opacity: 0.9;
+  }
+}

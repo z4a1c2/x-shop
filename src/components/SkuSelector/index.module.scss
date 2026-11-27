@@ -1,0 +1,60 @@
+@use '@/styles/variables.scss' as *;
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-lg;
+  padding: $spacing-lg 0;
+}
+
+.dimension {
+  display: flex;
+  align-items: flex-start;
+  gap: $spacing-lg;
+}
+
+.dimLabel {
+  width: 120rpx;
+  flex-shrink: 0;
+  font-size: $font-size-sm;
+  color: $color-text-tertiary;
+  line-height: 60rpx;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-sm;
+  flex: 1;
+}
+
+.option {
+  height: 60rpx;
+  padding: 0 $spacing-lg;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $color-bg-grey;
+  border-radius: $radius-button;
+  border: 2rpx solid transparent;
+  transition: all $transition-fast;
+
+  &:active {
+    opacity: 0.8;
+  }
+}
+
+.selected {
+  background: rgba($color-primary, 0.1);
+  border-color: $color-primary;
+}
+
+.optionText {
+  font-size: $font-size-sm;
+  color: $color-text-primary;
+}
+
+.selected .optionText {
+  color: $color-primary;
+  font-weight: $font-weight-medium;
+}

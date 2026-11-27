@@ -1,0 +1,51 @@
+@use '@/styles/variables.scss' as *;
+
+.sm {
+  display: inline-flex;
+  align-items: baseline;
+  color: $color-price;
+
+  .symbol {
+    font-size: $font-size-sm;
+    font-weight: $font-weight-medium;
+    margin-right: 2rpx;
+  }
+  .value {
+    font-size: $font-size-sm;
+    font-weight: $font-weight-bold;
+  }
+}
+
+.md {
+  display: inline-flex;
+  align-items: baseline;
+  color: $color-price;
+
+  .symbol {
+    font-size: $font-size-md;
+    font-weight: $font-weight-medium;
+    margin-right: 4rpx;
+  }
+  .value {
+    font-size: $font-size-xl;
+    font-weight: $font-weight-bold;
+    font-style: italic;
+  }
+}
+
+.lg {
+  display: inline-flex;
+  align-items: baseline;
+  color: $color-price;
+
+  .symbol {
+    font-size: $font-size-lg;
+    font-weight: $font-weight-medium;
+    margin-right: 4rpx;
+  }
+  .value {
+    font-size: 48rpx;
+    font-weight: $font-weight-bold;
+    font-style: italic;
+  }
+}

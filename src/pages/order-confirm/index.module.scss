@@ -1,0 +1,336 @@
+@use '@/styles/variables.scss' as *;
+
+.page {
+  min-height: 100vh;
+  background: $color-bg-page;
+  padding-bottom: 200rpx;
+}
+
+.section {
+  background: $color-bg-card;
+  margin: $spacing-sm $spacing-md;
+  border-radius: $radius-lg;
+  padding: $spacing-lg;
+  box-shadow: $shadow-card;
+}
+
+/* 地址 */
+.addressSection {
+  display: flex;
+  align-items: center;
+  gap: $spacing-md;
+  position: relative;
+
+  &::after {
+    content: '›';
+    position: absolute;
+    right: $spacing-lg;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40rpx;
+    color: $color-text-tertiary;
+  }
+}
+
+.addrInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+}
+
+.addrRow {
+  display: flex;
+  align-items: center;
+  gap: $spacing-md;
+}
+
+.addrName {
+  font-size: $font-size-md;
+  font-weight: $font-weight-medium;
+  color: $color-text-primary;
+}
+
+.addrPhone {
+  font-size: $font-size-md;
+  color: $color-text-secondary;
+}
+
+.addrDetail {
+  font-size: $font-size-sm;
+  color: $color-text-secondary;
+  line-height: 1.4;
+}
+
+.addrEmpty {
+  flex: 1;
+  text-align: center;
+  font-size: $font-size-md;
+  color: $color-primary;
+  padding: $spacing-md 0;
+}
+
+/* 商品列表 */
+.itemList {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-lg;
+}
+
+.itemRow {
+  display: flex;
+  gap: $spacing-md;
+}
+
+.itemImage {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: $radius-md;
+  flex-shrink: 0;
+}
+
+.itemInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+  min-width: 0;
+}
+
+.itemName {
+  font-size: $font-size-md;
+  font-weight: $font-weight-medium;
+  color: $color-text-primary;
+  @include text-ellipsis;
+}
+
+.itemSpec {
+  font-size: $font-size-xs;
+  color: $color-text-tertiary;
+  background: $color-bg-grey;
+  padding: 4rpx $spacing-sm;
+  border-radius: $radius-xs;
+  @include text-ellipsis;
+  align-self: flex-start;
+}
+
+.itemBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.itemPrice {
+  font-size: $font-size-md;
+  color: $color-price;
+  font-weight: $font-weight-semibold;
+}
+
+.itemQty {
+  font-size: $font-size-sm;
+  color: $color-text-tertiary;
+}
+
+/* 金额明细 */
+.amountRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $spacing-sm 0;
+}
+
+.amountLabel {
+  font-size: $font-size-md;
+  color: $color-text-secondary;
+}
+
+.amountValue {
+  font-size: $font-size-md;
+  color: $color-text-primary;
+}
+
+.amountDiscount {
+  font-size: $font-size-md;
+  color: $color-price;
+}
+
+/* 优惠券 / 积分 */
+.optionRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $spacing-sm 0;
+}
+
+.optionLabel {
+  font-size: $font-size-md;
+  color: $color-text-secondary;
+}
+
+.optionValueWrap {
+  display: flex;
+  align-items: center;
+  gap: $spacing-xs;
+}
+
+.optionValue {
+  font-size: $font-size-md;
+  color: $color-text-tertiary;
+}
+
+.optionValueActive {
+  font-size: $font-size-md;
+  color: $color-price;
+  font-weight: $font-weight-medium;
+}
+
+.optionArrow {
+  font-size: 32rpx;
+  color: $color-text-tertiary;
+}
+
+.couponOptions {
+  border-top: 1rpx solid $color-border;
+  margin-top: $spacing-sm;
+  padding-top: $spacing-sm;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+}
+
+.couponOption {
+  display: flex;
+  align-items: center;
+  gap: $spacing-md;
+  padding: $spacing-md;
+  border-radius: $radius-md;
+  background: $color-bg-grey;
+
+  &.couponOptionActive {
+    background: rgba(255, 107, 53, 0.08);
+    border: 1rpx solid $color-primary;
+  }
+}
+
+.couponOptionInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4rpx;
+  min-width: 0;
+}
+
+.couponOptionName {
+  font-size: $font-size-sm;
+  color: $color-text-primary;
+  @include text-ellipsis;
+}
+
+.couponOptionDesc {
+  font-size: $font-size-xs;
+  color: $color-text-tertiary;
+}
+
+.couponOptionAmount {
+  font-size: $font-size-md;
+  color: $color-price;
+  font-weight: $font-weight-semibold;
+}
+
+.couponOptionCheck {
+  font-size: $font-size-md;
+  color: $color-primary;
+}
+
+.pointsWrap {
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+}
+
+.pointsHint {
+  font-size: $font-size-xs;
+  color: $color-text-tertiary;
+}
+
+.pointsInput {
+  width: 140rpx;
+  height: 56rpx;
+  padding: 0 $spacing-sm;
+  text-align: right;
+  font-size: $font-size-md;
+  color: $color-text-primary;
+  background: $color-bg-grey;
+  border-radius: $radius-sm;
+}
+
+.freightNote {
+  font-size: $font-size-sm;
+  color: $color-text-tertiary;
+}
+
+.remarkRow {
+  padding: $spacing-sm 0;
+  display: flex;
+  align-items: center;
+  gap: $spacing-md;
+}
+
+.remarkInput {
+  flex: 1;
+  font-size: $font-size-md;
+  color: $color-text-primary;
+}
+
+/* 底部结算 */
+.bottomBar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  padding: $spacing-sm $spacing-lg;
+  padding-bottom: calc(#{$spacing-sm} + env(safe-area-inset-bottom));
+  background: $color-bg-card;
+  box-shadow: $shadow-float;
+  gap: $spacing-md;
+}
+
+.bottomLeft {
+  flex: 1;
+  display: flex;
+  align-items: baseline;
+  gap: $spacing-sm;
+}
+
+.bottomLabel {
+  font-size: $font-size-sm;
+  color: $color-text-secondary;
+}
+
+.bottomValue {
+  font-size: 40rpx;
+  font-weight: $font-weight-bold;
+  color: $color-price;
+  font-style: italic;
+}
+
+.submitBtn {
+  height: 80rpx;
+  padding: 0 56rpx;
+  background: $gradient-primary;
+  color: $color-text-white;
+  border-radius: $radius-button;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $font-size-md;
+  font-weight: $font-weight-medium;
+
+  &:active {
+    opacity: 0.9;
+  }
+}

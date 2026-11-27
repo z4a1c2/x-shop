@@ -1,0 +1,1447 @@
+[15:13:09.452] [Preview Server] Failed to read JWT file: /home/nio/.trae-cn/trae-jwt-token ENOENT: no such file or directory, open '/home/nio/.trae-cn/trae-jwt-token'
+[15:13:09.492] Try reusing port from lock file: 42161
+[15:13:09.499] Server listening on port 42161, PID 1758377
+[15:13:09.521] readProjectFiles, Found 98 files to read.
+[15:13:09.547] Starting PAI Cloud Dev...
+[15:13:09.548] [Preview Server] Failed to read JWT file: /home/nio/.trae-cn/trae-jwt-token ENOENT: no such file or directory, open '/home/nio/.trae-cn/trae-jwt-token'
+[15:13:09.841] [PAI SDK] createCloudSession failed: [UNKNOWN] 登录凭证缺失，请退出账户重新登录后重试
+[15:13:09.841] [PAI SDK] createCloudSession response: {
+  "code": 401,
+  "msg": "登录凭证缺失，请退出账户重新登录后重试",
+  "sandboxId": "",
+  "endpoint": "",
+  "errorCode": "UNKNOWN"
+}
+[15:13:09.842] Start failed: Error: 登录凭证缺失，请退出账户重新登录后重试
+    at Ql.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:21884)
+    at Generator.next (<anonymous>)
+    at n (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:14827)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[15:13:21.043] [Preview Server] Frontend connected, clients size = 1
+[15:13:21.044] Sending cached status to new connection, lastErrorMessage = {"event":"pnpm_error","message":"登录凭证缺失，请退出账户重新登录后重试","autoFixable":false}
+[15:15:38.241] File change detected. Updating...
+[15:15:38.290] readProjectFiles, Found 98 files to read.
+[15:15:38.307] Files read. Count: 98
+[15:15:38.308] Calling pai.updateCloudDev...
+[15:15:38.309] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:15:38.311] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:15:43.287] File change detected. Updating...
+[15:15:43.298] readProjectFiles, Found 98 files to read.
+[15:15:43.310] Files read. Count: 98
+[15:15:43.310] Calling pai.updateCloudDev...
+[15:15:43.310] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:15:43.312] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:15:52.969] File change detected. Updating...
+[15:15:53.004] readProjectFiles, Found 98 files to read.
+[15:15:53.022] Files read. Count: 98
+[15:15:53.023] Calling pai.updateCloudDev...
+[15:15:53.023] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:15:53.025] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:16:28.503] File change detected. Updating...
+[15:16:28.537] readProjectFiles, Found 98 files to read.
+[15:16:28.559] Files read. Count: 98
+[15:16:28.559] Calling pai.updateCloudDev...
+[15:16:28.560] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:16:28.561] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:16:35.091] File change detected. Updating...
+[15:16:35.114] readProjectFiles, Found 98 files to read.
+[15:16:35.127] Files read. Count: 98
+[15:16:35.128] Calling pai.updateCloudDev...
+[15:16:35.128] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:16:35.129] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:16:37.907] File change detected. Updating...
+[15:16:37.936] readProjectFiles, Found 98 files to read.
+[15:16:37.954] Files read. Count: 98
+[15:16:37.954] Calling pai.updateCloudDev...
+[15:16:37.955] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:16:37.956] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:16:49.677] File change detected. Updating...
+[15:16:49.696] readProjectFiles, Found 98 files to read.
+[15:16:49.706] Files read. Count: 98
+[15:16:49.707] Calling pai.updateCloudDev...
+[15:16:49.707] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:16:49.709] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:17:09.279] File change detected. Updating...
+[15:17:09.313] readProjectFiles, Found 98 files to read.
+[15:17:09.327] Files read. Count: 98
+[15:17:09.327] Calling pai.updateCloudDev...
+[15:17:09.328] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:17:09.330] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:17:17.637] File change detected. Updating...
+[15:17:17.650] readProjectFiles, Found 98 files to read.
+[15:17:17.660] Files read. Count: 98
+[15:17:17.661] Calling pai.updateCloudDev...
+[15:17:17.661] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:17:17.662] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:17:31.271] File change detected. Updating...
+[15:17:31.281] readProjectFiles, Found 98 files to read.
+[15:17:31.292] Files read. Count: 98
+[15:17:31.292] Calling pai.updateCloudDev...
+[15:17:31.293] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:17:31.294] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:17:37.141] File change detected. Updating...
+[15:17:37.162] readProjectFiles, Found 98 files to read.
+[15:17:37.174] Files read. Count: 98
+[15:17:37.174] Calling pai.updateCloudDev...
+[15:17:37.174] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:17:37.176] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:17:53.312] File change detected. Updating...
+[15:17:53.346] readProjectFiles, Found 98 files to read.
+[15:17:53.361] Files read. Count: 98
+[15:17:53.361] Calling pai.updateCloudDev...
+[15:17:53.362] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:17:53.363] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:18:03.179] File change detected. Updating...
+[15:18:03.192] readProjectFiles, Found 98 files to read.
+[15:18:03.204] Files read. Count: 98
+[15:18:03.204] Calling pai.updateCloudDev...
+[15:18:03.205] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:18:03.207] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:18:06.139] File change detected. Updating...
+[15:18:06.147] readProjectFiles, Found 99 files to read.
+[15:18:06.159] Files read. Count: 99
+[15:18:06.159] Calling pai.updateCloudDev...
+[15:18:06.159] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:18:06.161] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:18:14.909] File change detected. Updating...
+[15:18:14.920] readProjectFiles, Found 100 files to read.
+[15:18:14.933] Files read. Count: 100
+[15:18:14.934] Calling pai.updateCloudDev...
+[15:18:14.934] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:18:14.935] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:18:30.406] File change detected. Updating...
+[15:18:30.416] readProjectFiles, Found 101 files to read.
+[15:18:30.427] Files read. Count: 101
+[15:18:30.428] Calling pai.updateCloudDev...
+[15:18:30.428] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:18:30.429] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:18:36.328] File change detected. Updating...
+[15:18:36.338] readProjectFiles, Found 101 files to read.
+[15:18:36.349] Files read. Count: 101
+[15:18:36.349] Calling pai.updateCloudDev...
+[15:18:36.349] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:18:36.351] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:18:39.727] File change detected. Updating...
+[15:18:39.735] readProjectFiles, Found 102 files to read.
+[15:18:39.746] Files read. Count: 102
+[15:18:39.746] Calling pai.updateCloudDev...
+[15:18:39.746] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:18:39.748] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:18:50.548] File change detected. Updating...
+[15:18:50.560] readProjectFiles, Found 104 files to read.
+[15:18:50.572] Files read. Count: 104
+[15:18:50.572] Calling pai.updateCloudDev...
+[15:18:50.572] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:18:50.574] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:18:55.807] File change detected. Updating...
+[15:18:55.837] readProjectFiles, Found 105 files to read.
+[15:18:55.870] Files read. Count: 105
+[15:18:55.870] Calling pai.updateCloudDev...
+[15:18:55.870] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:18:55.872] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:19:14.362] File change detected. Updating...
+[15:19:14.396] readProjectFiles, Found 107 files to read.
+[15:19:14.410] Files read. Count: 107
+[15:19:14.410] Calling pai.updateCloudDev...
+[15:19:14.410] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:19:14.412] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:19:19.322] File change detected. Updating...
+[15:19:19.363] readProjectFiles, Found 108 files to read.
+[15:19:19.380] Files read. Count: 108
+[15:19:19.380] Calling pai.updateCloudDev...
+[15:19:19.381] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:19:19.382] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:19:25.429] File change detected. Updating...
+[15:19:25.454] readProjectFiles, Found 108 files to read.
+[15:19:25.468] Files read. Count: 108
+[15:19:25.469] Calling pai.updateCloudDev...
+[15:19:25.469] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:19:25.470] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:19:27.809] File change detected. Updating...
+[15:19:27.845] readProjectFiles, Found 108 files to read.
+[15:19:27.865] Files read. Count: 108
+[15:19:27.866] Calling pai.updateCloudDev...
+[15:19:27.866] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:19:27.868] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:42:00.328] File change detected. Updating...
+[15:42:00.385] readProjectFiles, Found 108 files to read.
+[15:42:00.402] Files read. Count: 108
+[15:42:00.402] Calling pai.updateCloudDev...
+[15:42:00.403] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:42:00.405] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:52:49.429] File change detected. Updating...
+[15:52:49.440] readProjectFiles, Found 108 files to read.
+[15:52:49.454] Files read. Count: 108
+[15:52:49.455] Calling pai.updateCloudDev...
+[15:52:49.455] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:52:49.456] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:53:03.381] File change detected. Updating...
+[15:53:03.429] readProjectFiles, Found 108 files to read.
+[15:53:03.446] Files read. Count: 108
+[15:53:03.447] Calling pai.updateCloudDev...
+[15:53:03.447] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:53:03.448] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:53:08.205] File change detected. Updating...
+[15:53:08.239] readProjectFiles, Found 108 files to read.
+[15:53:08.256] Files read. Count: 108
+[15:53:08.256] Calling pai.updateCloudDev...
+[15:53:08.257] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:53:08.258] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:59:23.591] File change detected. Updating...
+[15:59:23.603] readProjectFiles, Found 108 files to read.
+[15:59:23.619] Files read. Count: 108
+[15:59:23.619] Calling pai.updateCloudDev...
+[15:59:23.620] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:59:23.621] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:59:32.175] File change detected. Updating...
+[15:59:32.191] readProjectFiles, Found 108 files to read.
+[15:59:32.208] Files read. Count: 108
+[15:59:32.208] Calling pai.updateCloudDev...
+[15:59:32.210] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:59:32.212] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:59:50.213] File change detected. Updating...
+[15:59:50.230] readProjectFiles, Found 109 files to read.
+[15:59:50.254] Files read. Count: 109
+[15:59:50.254] Calling pai.updateCloudDev...
+[15:59:50.256] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:59:50.258] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[15:59:58.645] File change detected. Updating...
+[15:59:58.656] readProjectFiles, Found 109 files to read.
+[15:59:58.672] Files read. Count: 109
+[15:59:58.672] Calling pai.updateCloudDev...
+[15:59:58.672] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[15:59:58.674] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:00:08.789] File change detected. Updating...
+[16:00:08.802] readProjectFiles, Found 109 files to read.
+[16:00:08.817] Files read. Count: 109
+[16:00:08.818] Calling pai.updateCloudDev...
+[16:00:08.818] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:00:08.820] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:00:33.349] File change detected. Updating...
+[16:00:33.373] readProjectFiles, Found 109 files to read.
+[16:00:33.392] Files read. Count: 109
+[16:00:33.392] Calling pai.updateCloudDev...
+[16:00:33.393] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:00:33.394] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:00:39.597] File change detected. Updating...
+[16:00:39.607] readProjectFiles, Found 109 files to read.
+[16:00:39.619] Files read. Count: 109
+[16:00:39.619] Calling pai.updateCloudDev...
+[16:00:39.619] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:00:39.621] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:00:47.375] File change detected. Updating...
+[16:00:47.387] readProjectFiles, Found 109 files to read.
+[16:00:47.401] Files read. Count: 109
+[16:00:47.402] Calling pai.updateCloudDev...
+[16:00:47.402] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:00:47.404] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:01:13.308] File change detected. Updating...
+[16:01:13.319] readProjectFiles, Found 109 files to read.
+[16:01:13.331] Files read. Count: 109
+[16:01:13.332] Calling pai.updateCloudDev...
+[16:01:13.332] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:01:13.334] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:01:39.006] File change detected. Updating...
+[16:01:39.018] readProjectFiles, Found 110 files to read.
+[16:01:39.030] Files read. Count: 110
+[16:01:39.030] Calling pai.updateCloudDev...
+[16:01:39.031] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:01:39.032] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:01:57.811] File change detected. Updating...
+[16:01:57.823] readProjectFiles, Found 111 files to read.
+[16:01:57.835] Files read. Count: 111
+[16:01:57.835] Calling pai.updateCloudDev...
+[16:01:57.836] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:01:57.837] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:02:01.590] File change detected. Updating...
+[16:02:01.602] readProjectFiles, Found 112 files to read.
+[16:02:01.614] Files read. Count: 112
+[16:02:01.614] Calling pai.updateCloudDev...
+[16:02:01.614] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:02:01.615] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:02:57.748] File change detected. Updating...
+[16:02:57.759] readProjectFiles, Found 112 files to read.
+[16:02:57.772] Files read. Count: 112
+[16:02:57.772] Calling pai.updateCloudDev...
+[16:02:57.773] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:02:57.774] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:03:13.840] File change detected. Updating...
+[16:03:13.851] readProjectFiles, Found 112 files to read.
+[16:03:13.865] Files read. Count: 112
+[16:03:13.866] Calling pai.updateCloudDev...
+[16:03:13.866] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:03:13.867] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:03:22.925] File change detected. Updating...
+[16:03:22.967] readProjectFiles, Found 112 files to read.
+[16:03:22.985] Files read. Count: 112
+[16:03:22.986] Calling pai.updateCloudDev...
+[16:03:22.986] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:03:22.987] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:03:34.964] File change detected. Updating...
+[16:03:34.975] readProjectFiles, Found 113 files to read.
+[16:03:34.989] Files read. Count: 113
+[16:03:34.989] Calling pai.updateCloudDev...
+[16:03:34.989] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:03:34.990] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:03:44.584] File change detected. Updating...
+[16:03:44.595] readProjectFiles, Found 114 files to read.
+[16:03:44.609] Files read. Count: 114
+[16:03:44.610] Calling pai.updateCloudDev...
+[16:03:44.610] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:03:44.611] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:03:51.727] File change detected. Updating...
+[16:03:51.737] readProjectFiles, Found 115 files to read.
+[16:03:51.752] Files read. Count: 115
+[16:03:51.752] Calling pai.updateCloudDev...
+[16:03:51.753] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:03:51.754] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:04:00.876] File change detected. Updating...
+[16:04:00.930] readProjectFiles, Found 116 files to read.
+[16:04:00.948] Files read. Count: 116
+[16:04:00.949] Calling pai.updateCloudDev...
+[16:04:00.949] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:04:00.951] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:04:11.590] File change detected. Updating...
+[16:04:11.603] readProjectFiles, Found 117 files to read.
+[16:04:11.616] Files read. Count: 117
+[16:04:11.616] Calling pai.updateCloudDev...
+[16:04:11.616] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:04:11.618] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:04:19.658] File change detected. Updating...
+[16:04:19.694] readProjectFiles, Found 119 files to read.
+[16:04:19.712] Files read. Count: 119
+[16:04:19.712] Calling pai.updateCloudDev...
+[16:04:19.712] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:04:19.714] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:04:42.549] File change detected. Updating...
+[16:04:42.561] readProjectFiles, Found 120 files to read.
+[16:04:42.576] Files read. Count: 120
+[16:04:42.576] Calling pai.updateCloudDev...
+[16:04:42.576] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:04:42.578] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:04:59.817] File change detected. Updating...
+[16:04:59.857] readProjectFiles, Found 122 files to read.
+[16:04:59.875] Files read. Count: 122
+[16:04:59.875] Calling pai.updateCloudDev...
+[16:04:59.875] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:04:59.876] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:05:16.473] File change detected. Updating...
+[16:05:16.485] readProjectFiles, Found 123 files to read.
+[16:05:16.500] Files read. Count: 123
+[16:05:16.500] Calling pai.updateCloudDev...
+[16:05:16.500] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:05:16.502] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:05:23.844] File change detected. Updating...
+[16:05:23.865] readProjectFiles, Found 125 files to read.
+[16:05:23.879] Files read. Count: 125
+[16:05:23.879] Calling pai.updateCloudDev...
+[16:05:23.879] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:05:23.881] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:05:31.848] File change detected. Updating...
+[16:05:31.861] readProjectFiles, Found 125 files to read.
+[16:05:31.878] Files read. Count: 125
+[16:05:31.878] Calling pai.updateCloudDev...
+[16:05:31.878] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:05:31.880] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:05:37.012] File change detected. Updating...
+[16:05:37.023] readProjectFiles, Found 125 files to read.
+[16:05:37.038] Files read. Count: 125
+[16:05:37.039] Calling pai.updateCloudDev...
+[16:05:37.039] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:05:37.041] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:05:50.501] File change detected. Updating...
+[16:05:50.513] readProjectFiles, Found 125 files to read.
+[16:05:50.529] Files read. Count: 125
+[16:05:50.529] Calling pai.updateCloudDev...
+[16:05:50.530] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:05:50.531] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:05:52.969] File change detected. Updating...
+[16:05:52.978] readProjectFiles, Found 125 files to read.
+[16:05:52.991] Files read. Count: 125
+[16:05:52.991] Calling pai.updateCloudDev...
+[16:05:52.992] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:05:52.993] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:05:56.211] File change detected. Updating...
+[16:05:56.220] readProjectFiles, Found 125 files to read.
+[16:05:56.233] Files read. Count: 125
+[16:05:56.234] Calling pai.updateCloudDev...
+[16:05:56.234] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:05:56.235] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:06:05.345] File change detected. Updating...
+[16:06:05.357] readProjectFiles, Found 125 files to read.
+[16:06:05.370] Files read. Count: 125
+[16:06:05.370] Calling pai.updateCloudDev...
+[16:06:05.370] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:06:05.372] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:06:09.537] File change detected. Updating...
+[16:06:09.547] readProjectFiles, Found 125 files to read.
+[16:06:09.559] Files read. Count: 125
+[16:06:09.559] Calling pai.updateCloudDev...
+[16:06:09.560] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:06:09.561] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:07:48.383] File change detected. Updating...
+[16:07:48.394] readProjectFiles, Found 125 files to read.
+[16:07:48.409] Files read. Count: 125
+[16:07:48.409] Calling pai.updateCloudDev...
+[16:07:48.410] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:07:48.411] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:07:59.865] File change detected. Updating...
+[16:07:59.877] readProjectFiles, Found 125 files to read.
+[16:07:59.891] Files read. Count: 125
+[16:07:59.891] Calling pai.updateCloudDev...
+[16:07:59.892] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:07:59.893] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:08:05.375] File change detected. Updating...
+[16:08:05.387] readProjectFiles, Found 125 files to read.
+[16:08:05.399] Files read. Count: 125
+[16:08:05.399] Calling pai.updateCloudDev...
+[16:08:05.400] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:08:05.401] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:08:13.969] File change detected. Updating...
+[16:08:13.980] readProjectFiles, Found 125 files to read.
+[16:08:13.993] Files read. Count: 125
+[16:08:13.993] Calling pai.updateCloudDev...
+[16:08:13.993] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:08:13.994] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:08:19.885] File change detected. Updating...
+[16:08:19.909] readProjectFiles, Found 125 files to read.
+[16:08:19.922] Files read. Count: 125
+[16:08:19.922] Calling pai.updateCloudDev...
+[16:08:19.923] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:08:19.924] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:08:27.859] File change detected. Updating...
+[16:08:27.870] readProjectFiles, Found 125 files to read.
+[16:08:27.886] Files read. Count: 125
+[16:08:27.887] Calling pai.updateCloudDev...
+[16:08:27.887] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:08:27.889] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:08:30.864] File change detected. Updating...
+[16:08:30.895] readProjectFiles, Found 125 files to read.
+[16:08:30.915] Files read. Count: 125
+[16:08:30.916] Calling pai.updateCloudDev...
+[16:08:30.916] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:08:30.917] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:08:33.757] File change detected. Updating...
+[16:08:33.785] readProjectFiles, Found 125 files to read.
+[16:08:33.804] Files read. Count: 125
+[16:08:33.804] Calling pai.updateCloudDev...
+[16:08:33.805] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:08:33.806] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:08:37.013] File change detected. Updating...
+[16:08:37.031] readProjectFiles, Found 125 files to read.
+[16:08:37.044] Files read. Count: 125
+[16:08:37.044] Calling pai.updateCloudDev...
+[16:08:37.044] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:08:37.046] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:08:46.199] File change detected. Updating...
+[16:08:46.250] readProjectFiles, Found 125 files to read.
+[16:08:46.272] Files read. Count: 125
+[16:08:46.273] Calling pai.updateCloudDev...
+[16:08:46.273] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:08:46.275] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:08:51.032] File change detected. Updating...
+[16:08:51.066] readProjectFiles, Found 125 files to read.
+[16:08:51.085] Files read. Count: 125
+[16:08:51.085] Calling pai.updateCloudDev...
+[16:08:51.086] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:08:51.087] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:09:01.865] File change detected. Updating...
+[16:09:01.879] readProjectFiles, Found 125 files to read.
+[16:09:01.892] Files read. Count: 125
+[16:09:01.892] Calling pai.updateCloudDev...
+[16:09:01.893] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:09:01.894] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:09:12.589] File change detected. Updating...
+[16:09:12.632] readProjectFiles, Found 125 files to read.
+[16:09:12.652] Files read. Count: 125
+[16:09:12.653] Calling pai.updateCloudDev...
+[16:09:12.653] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:09:12.654] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:11:18.957] File change detected. Updating...
+[16:11:18.984] readProjectFiles, Found 125 files to read.
+[16:11:19.001] Files read. Count: 125
+[16:11:19.001] Calling pai.updateCloudDev...
+[16:11:19.002] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:11:19.003] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:12:29.021] File change detected. Updating...
+[16:12:29.034] readProjectFiles, Found 125 files to read.
+[16:12:29.048] Files read. Count: 125
+[16:12:29.048] Calling pai.updateCloudDev...
+[16:12:29.049] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:12:29.050] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:12:37.065] File change detected. Updating...
+[16:12:37.076] readProjectFiles, Found 125 files to read.
+[16:12:37.089] Files read. Count: 125
+[16:12:37.089] Calling pai.updateCloudDev...
+[16:12:37.090] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:12:37.091] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:12:44.672] File change detected. Updating...
+[16:12:44.684] readProjectFiles, Found 125 files to read.
+[16:12:44.700] Files read. Count: 125
+[16:12:44.700] Calling pai.updateCloudDev...
+[16:12:44.700] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:12:44.701] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:12:56.824] File change detected. Updating...
+[16:12:56.836] readProjectFiles, Found 125 files to read.
+[16:12:56.850] Files read. Count: 125
+[16:12:56.850] Calling pai.updateCloudDev...
+[16:12:56.851] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:12:56.852] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:13:06.756] File change detected. Updating...
+[16:13:06.774] readProjectFiles, Found 125 files to read.
+[16:13:06.789] Files read. Count: 125
+[16:13:06.789] Calling pai.updateCloudDev...
+[16:13:06.790] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:13:06.791] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:13:14.937] File change detected. Updating...
+[16:13:14.949] readProjectFiles, Found 125 files to read.
+[16:13:14.962] Files read. Count: 125
+[16:13:14.962] Calling pai.updateCloudDev...
+[16:13:14.963] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:13:14.964] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:13:26.863] File change detected. Updating...
+[16:13:26.875] readProjectFiles, Found 125 files to read.
+[16:13:26.889] Files read. Count: 125
+[16:13:26.889] Calling pai.updateCloudDev...
+[16:13:26.890] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:13:26.891] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:13:33.273] File change detected. Updating...
+[16:13:33.308] readProjectFiles, Found 125 files to read.
+[16:13:33.329] Files read. Count: 125
+[16:13:33.329] Calling pai.updateCloudDev...
+[16:13:33.330] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:13:33.333] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:13:36.097] File change detected. Updating...
+[16:13:36.107] readProjectFiles, Found 125 files to read.
+[16:13:36.121] Files read. Count: 125
+[16:13:36.121] Calling pai.updateCloudDev...
+[16:13:36.122] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:13:36.123] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:13:42.765] File change detected. Updating...
+[16:13:42.802] readProjectFiles, Found 125 files to read.
+[16:13:42.820] Files read. Count: 125
+[16:13:42.820] Calling pai.updateCloudDev...
+[16:13:42.820] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:13:42.821] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:13:51.711] File change detected. Updating...
+[16:13:51.750] readProjectFiles, Found 125 files to read.
+[16:13:51.768] Files read. Count: 125
+[16:13:51.768] Calling pai.updateCloudDev...
+[16:13:51.768] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:13:51.770] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:14:10.769] File change detected. Updating...
+[16:14:10.781] readProjectFiles, Found 125 files to read.
+[16:14:10.796] Files read. Count: 125
+[16:14:10.796] Calling pai.updateCloudDev...
+[16:14:10.796] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:14:10.797] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:21:57.517] File change detected. Updating...
+[16:21:57.538] readProjectFiles, Found 125 files to read.
+[16:21:57.563] Files read. Count: 125
+[16:21:57.563] Calling pai.updateCloudDev...
+[16:21:57.564] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:21:57.566] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:22:20.254] File change detected. Updating...
+[16:22:20.266] readProjectFiles, Found 125 files to read.
+[16:22:20.284] Files read. Count: 125
+[16:22:20.285] Calling pai.updateCloudDev...
+[16:22:20.286] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:22:20.287] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:24:03.777] File change detected. Updating...
+[16:24:03.815] readProjectFiles, Found 125 files to read.
+[16:24:03.833] Files read. Count: 125
+[16:24:03.833] Calling pai.updateCloudDev...
+[16:24:03.834] [PAI SDK] cloudServer.update called, appId: pai-preview-trae-fe3c3de1
+[16:24:03.835] Update failed: TypeError: Cannot read properties of undefined (reading 'send')
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3239)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+    at St (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1002)
+    at Ll.call (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3118)
+    at Ll.<anonymous> (/media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:3711)
+    at Generator.next (<anonymous>)
+    at /media/nio/work/x-shop/.pai/skill-update/generate-mini-app/scripts/preview-server.js:177:1182
+    at new Promise (<anonymous>)
+[16:27:12.322] Shutting down...
+[16:27:12.323] Stopping Cloud Dev...

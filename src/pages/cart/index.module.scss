@@ -1,0 +1,142 @@
+@use '@/styles/variables.scss' as *;
+
+.page {
+  min-height: 100vh;
+  background: $color-bg-page;
+  padding: $spacing-md;
+  padding-bottom: 200rpx;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+}
+
+.empty {
+  padding: 200rpx $spacing-lg;
+  text-align: center;
+
+  .emptyIcon {
+    font-size: 120rpx;
+    margin-bottom: $spacing-lg;
+  }
+
+  .emptyTitle {
+    font-size: $font-size-lg;
+    color: $color-text-secondary;
+    display: block;
+    margin-bottom: $spacing-md;
+  }
+
+  .emptyDesc {
+    font-size: $font-size-sm;
+    color: $color-text-tertiary;
+    display: block;
+    margin-bottom: $spacing-xl;
+  }
+
+  .emptyBtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 80rpx;
+    padding: 0 64rpx;
+    background: $gradient-primary;
+    color: $color-text-white;
+    border-radius: $radius-button;
+    font-size: $font-size-md;
+    font-weight: $font-weight-medium;
+  }
+}
+
+.bottomBar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  padding: $spacing-md $spacing-lg;
+  padding-bottom: calc(#{$spacing-md} + env(safe-area-inset-bottom));
+  background: $color-bg-card;
+  box-shadow: $shadow-float;
+  gap: $spacing-md;
+}
+
+.selectAll {
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+}
+
+.selectAllCircle {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: $radius-round;
+  border: 2rpx solid $color-border;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $color-bg-card;
+  transition: all $transition-fast;
+
+  &.checked {
+    border-color: $color-primary;
+    background: $color-primary;
+  }
+}
+
+.selectAllText {
+  font-size: $font-size-sm;
+  color: $color-text-secondary;
+}
+
+.total {
+  flex: 1;
+  text-align: right;
+}
+
+.totalLabel {
+  font-size: $font-size-sm;
+  color: $color-text-secondary;
+  margin-right: $spacing-xs;
+}
+
+.totalPrice {
+  font-size: 36rpx;
+  font-weight: $font-weight-bold;
+  color: $color-price;
+  font-style: italic;
+}
+
+.settleBtn {
+  height: 80rpx;
+  padding: 0 48rpx;
+  background: $gradient-primary;
+  color: $color-text-white;
+  border-radius: $radius-button;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $font-size-md;
+  font-weight: $font-weight-medium;
+  transition: all $transition-fast;
+
+  &:active {
+    opacity: 0.9;
+    transform: scale(0.98);
+  }
+
+  &.disabled {
+    opacity: 0.5;
+  }
+}
+
+.countBadge {
+  background: $color-bg-grey;
+  padding: $spacing-xs $spacing-sm;
+  border-radius: $radius-sm;
+  margin-left: $spacing-xs;
+}

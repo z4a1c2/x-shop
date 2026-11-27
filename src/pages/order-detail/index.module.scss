@@ -1,0 +1,348 @@
+@use '@/styles/variables.scss' as *;
+
+.page {
+  min-height: 100vh;
+  background: $color-bg-page;
+  padding-bottom: 160rpx;
+}
+
+.statusBanner {
+  background: $gradient-banner;
+  color: $color-text-white;
+  padding: $spacing-xl $spacing-lg;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+}
+
+.statusTitle {
+  font-size: 40rpx;
+  font-weight: $font-weight-bold;
+}
+
+.statusDesc {
+  font-size: $font-size-sm;
+  opacity: 0.9;
+}
+
+.section {
+  background: $color-bg-card;
+  margin: $spacing-sm $spacing-md;
+  border-radius: $radius-lg;
+  padding: $spacing-lg;
+  box-shadow: $shadow-card;
+}
+
+.sectionTitle {
+  font-size: 32rpx;
+  font-weight: $font-weight-semibold;
+  color: $color-text-primary;
+  margin-bottom: $spacing-md;
+  display: block;
+}
+
+// 物流信息
+.shipInfo {
+  font-size: $font-size-sm;
+  color: $color-text-secondary;
+  margin-bottom: $spacing-md;
+}
+
+.traceItem {
+  display: flex;
+  gap: $spacing-sm;
+  margin-bottom: $spacing-sm;
+}
+
+.traceDot {
+  width: 16rpx;
+  height: 16rpx;
+  border-radius: 50%;
+  background: $color-border;
+  margin-top: 10rpx;
+  flex-shrink: 0;
+}
+
+.traceDotActive {
+  background: $color-primary;
+}
+
+.traceContent {
+  flex: 1;
+}
+
+.traceText {
+  font-size: $font-size-sm;
+  color: $color-text-tertiary;
+  line-height: 1.5;
+}
+
+.traceTextActive {
+  color: $color-text-primary;
+}
+
+.traceTime {
+  font-size: $font-size-xs;
+  color: $color-text-tertiary;
+}
+
+// 退款卡片
+.refundInfo {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+}
+
+.refundRow {
+  display: flex;
+  justify-content: space-between;
+  gap: $spacing-md;
+}
+
+.refundLabel {
+  font-size: $font-size-sm;
+  color: $color-text-tertiary;
+}
+
+.refundValue {
+  font-size: $font-size-sm;
+  color: $color-text-primary;
+}
+
+.refundStatus {
+  color: $color-primary;
+  font-weight: $font-weight-medium;
+}
+
+.refundAmount {
+  font-size: 32rpx;
+  font-weight: $font-weight-bold;
+  color: $color-price;
+}
+
+.refundText {
+  font-size: $font-size-sm;
+  color: $color-text-primary;
+  text-align: right;
+  max-width: 400rpx;
+}
+
+.refundReject {
+  font-size: $font-size-sm;
+  color: $color-danger;
+  text-align: right;
+}
+
+.refundActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: $spacing-md;
+  margin-top: $spacing-md;
+  padding-top: $spacing-md;
+  border-top: 1rpx solid $color-divider;
+}
+
+.refundBtn {
+  height: 64rpx;
+  padding: 0 $spacing-lg;
+  border-radius: $radius-button;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $font-size-sm;
+  border: 1rpx solid $color-border;
+  color: $color-text-secondary;
+  background: $color-bg-card;
+  transition: all $transition-fast;
+
+  &:active {
+    opacity: 0.9;
+  }
+}
+
+.refundPrimary {
+  background: $gradient-primary;
+  color: $color-text-white;
+  border-color: transparent;
+}
+
+// 金额
+.amountDiscount {
+  color: $color-success;
+}
+
+.addrInfo {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+}
+
+.addrRow {
+  display: flex;
+  align-items: center;
+  gap: $spacing-md;
+}
+
+.addrName {
+  font-size: $font-size-md;
+  font-weight: $font-weight-medium;
+  color: $color-text-primary;
+}
+
+.addrPhone {
+  font-size: $font-size-md;
+  color: $color-text-secondary;
+}
+
+.addrDetail {
+  font-size: $font-size-md;
+  color: $color-text-secondary;
+  line-height: 1.4;
+}
+
+.itemList {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-lg;
+}
+
+.itemRow {
+  display: flex;
+  gap: $spacing-md;
+}
+
+.itemImage {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: $radius-md;
+  flex-shrink: 0;
+}
+
+.itemInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+  min-width: 0;
+}
+
+.itemName {
+  font-size: $font-size-md;
+  font-weight: $font-weight-medium;
+  color: $color-text-primary;
+  @include text-ellipsis;
+}
+
+.itemSpec {
+  font-size: $font-size-xs;
+  color: $color-text-tertiary;
+  background: $color-bg-grey;
+  padding: 4rpx $spacing-sm;
+  border-radius: $radius-xs;
+  align-self: flex-start;
+  @include text-ellipsis;
+}
+
+.itemBottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.itemPrice {
+  font-size: $font-size-md;
+  color: $color-price;
+}
+
+.itemQty {
+  font-size: $font-size-sm;
+  color: $color-text-tertiary;
+}
+
+.amountRow {
+  display: flex;
+  justify-content: space-between;
+  padding: $spacing-xs 0;
+}
+
+.amountLabel {
+  font-size: $font-size-sm;
+  color: $color-text-tertiary;
+}
+
+.amountValue {
+  font-size: $font-size-sm;
+  color: $color-text-primary;
+}
+
+.payAmount {
+  font-size: 44rpx;
+  font-weight: $font-weight-bold;
+  color: $color-price;
+  font-style: italic;
+}
+
+.orderInfo {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+}
+
+.infoRow {
+  display: flex;
+  justify-content: space-between;
+  padding: $spacing-xs 0;
+}
+
+.infoLabel {
+  font-size: $font-size-sm;
+  color: $color-text-tertiary;
+}
+
+.infoValue {
+  font-size: $font-size-sm;
+  color: $color-text-primary;
+}
+
+.bottomBar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: flex-end;
+  gap: $spacing-md;
+  padding: $spacing-sm $spacing-lg;
+  padding-bottom: calc(#{$spacing-sm} + env(safe-area-inset-bottom));
+  background: $color-bg-card;
+  box-shadow: $shadow-float;
+}
+
+.actionBtn {
+  height: 72rpx;
+  padding: 0 40rpx;
+  border-radius: $radius-button;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $font-size-md;
+  border: 1rpx solid $color-border;
+  color: $color-text-secondary;
+  background: $color-bg-card;
+
+  &.primary {
+    background: $gradient-primary;
+    color: $color-text-white;
+    border-color: transparent;
+  }
+
+  &.ghost {
+    color: $color-primary;
+    border-color: $color-primary;
+  }
+
+  &:active {
+    opacity: 0.9;
+  }
+}
